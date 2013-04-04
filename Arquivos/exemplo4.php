@@ -1,0 +1,7 @@
+<?php
+/*
+ * Uso do fseek.
+ */
+
+
+?>
