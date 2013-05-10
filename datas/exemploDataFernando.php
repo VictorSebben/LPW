@@ -23,7 +23,7 @@
 * Os formatos com % respeitam o setlocale. %A é o dia da semana por extenso. %a é
 * uma abreviação do dia da semana.
 */
-        setlocale(LC_TIME, 'pt_BR.UTF-8'); // O servidor de ter a linguagem instalada.
+        setlocale(LC_TIME, 'pt_BR.UTF-8'); // O servidor deve ter a linguagem instalada.
 
         echo '<ul>';
         foreach ($vetor AS $item):

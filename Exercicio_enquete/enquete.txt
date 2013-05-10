@@ -1,0 +1,4 @@
+Sim, muitas vezes;9
+Sim, algumas vezes;5
+Nunca;1
+Não sei;5

@@ -1,0 +1,27 @@
+Exercício:
+
+Considere um arquivo chamado enquete.txt que possui como conteúdo dados de uma enquete no seguinte formato:
+
+
+
+
+Sim, muitas vezes; 203
+
+Sim, algumas vezes;150
+
+Nunca;190
+
+Não sei;60
+
+
+sendo que cada linha é uma opção da enquete com a descrição e o número de votos separados pelo ;
+
+obs.: Neste caso considere que o arquivo já existe e inicialmente o número de votos é 0 (zero);
+
+a) Faça uma função que grava no arquivo um voto. Faça o formulário para a enquete e teste a função (usar o arquivo para gerar as opções).
+b) Faça uma função que retorna um array com o percentual de respostas para cada uma das opções da enquete. Mostre o resultado.
+c) Deve possuir um controle para  que só possa ser computado um voto por máquina (navegador).
+
+
+Quando for votar, checar se não há cookie já setada. Se houver, não pode mais votar.
+Se não houver, efetua o voto e seta a cookie.

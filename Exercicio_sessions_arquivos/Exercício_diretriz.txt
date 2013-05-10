@@ -1,0 +1,26 @@
+Exercício:
+
+Parte 1:
+
+   1. criar um formulário com os campos: id, nome, login e senha (form_usuario.php);
+      Na ação do formulário colocar gravar_usuario.php
+   2. Criar o arquivo gravar_usuario.php que faz a inclusão do usuário no arquivo senhas.txt;
+   A senha deve ser criptografada com a função md5.
+   formato do arquivo senhas.txt:
+   1:José:jose:sdfasdfasdfsadfasdfsdaf
+   2:Maria:maria:asdfasdfsdafsdafasdfasdf
+   3:Ana:ana:asdflaksdlfkaçsldfkçasdkf
+
+   obs.: não precisa controlar se já existe o usuário no arquivo
+
+Parte 2:
+    1. criar o arquivo login.php (caixa de texto para login e senha; botão OK);
+    Na ação do formulário colocar verificar.php
+    2. O verificar.php deve verificar se existe no arquivo senhas.txt um usuário
+    com o login e senha informados; Em caso positivo deve colocar o login e o
+    nome do usuário na sessao e abrir um arquivo nomeado
+    arquivo1.php, senão mostrar mensagem que usuário/senha inválidos.
+    3. O arquivo1.php deve verificar se existe um usuário na sessão. Se existir, deve mostrar o nome,
+ senão deve mostrar mensagem que não tem permissão de acesso. Colocar um link no arquivo para "logout".
+    4. Criar página para destruir a sessão.
+    

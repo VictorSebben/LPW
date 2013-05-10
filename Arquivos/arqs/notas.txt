@@ -1,0 +1,7 @@
+1;José;8.4;
+3;Maria;9.1;
+5;Ernani;6.0;
+31;Tiago;6.5;
+34;Guilherme;7.0;
+56;Paula;1.4;
+78;Luiz;3.2;
